@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.8
         with:
+          token: ${{  secrets.TOKEN_KIDDIN9 }}
           owner: kiddin9
           base: master
           head: master
